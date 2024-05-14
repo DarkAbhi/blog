@@ -1,0 +1,16 @@
+baseURL = 'https://blog.abhishekan.dev'
+languageCode = 'en-us'
+title = 'DarkAbhi'
+theme = 'paper'
+
+[params]
+    # header social icons
+    twitter = 'im_abhishekan'               # twitter.com/YOUR_TWITTER_ID
+    github = 'DarkAbhi'                 # github.com/YOUR_GITHUB_ID
+    instagram = 'iamabhishekan'           # instagram.com/YOUR_INSTAGRAM_ID
+    linkedin = 'abhishek-an'             # linkedin.com/in/YOUR_LINKEDIN_ID
+    
+    name = 'Abhishek AN'
+    bio = "Tech musings, travel stories, and life's adventures documented along the way."
+
+    avatar = 'https://avatars.githubusercontent.com/u/22658573?v=4'
