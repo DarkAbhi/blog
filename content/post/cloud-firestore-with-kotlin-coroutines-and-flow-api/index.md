@@ -2,19 +2,17 @@
 author = "Abhishek AN"
 title = "Cloud Firestore🔥 with Kotlin Coroutines and Flow API"
 date = "2021-02-16"
-description = "Implementing a real time listener using Firestore with coroutines"
+summary = "Implementing a real time listener using Firestore with coroutines"
 tags = [
-    "firebase",
-    "firestore",
-    "kotlin",
-    "coroutines",
-    "flow"
+    "Firebase",
+    "Firestore",
+    "Kotlin",
+    "Coroutines",
 ]
 categories = [
-    "firebase",
-    "android"
+    "Firebase",
+    "Android"
 ]
-series = ["Firebase"]
 +++
 
 We’ve heard a lot about Kotlin flow since its launch in March last year.
