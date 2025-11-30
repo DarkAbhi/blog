@@ -1,0 +1,136 @@
+{{- $images := .Get "images" -}}
+{{- $imageList := split $images "," -}}
+{{- $id := printf "carousel-%s" (.Ordinal) -}}
+
+<div class="carousel-container" id="{{ $id }}">
+    <div class="carousel-wrapper">
+        <div class="carousel-slides">
+            {{- range $index, $image := $imageList -}}
+            <div class="carousel-slide {{ if eq $index 0 }}active{{ end }}">
+                <img src="{{ trim $image " " }}" alt="Image {{ add $index 1 }}" loading="lazy">
+            </div>
+            {{- end -}}
+        </div>
+
+        {{- if gt (len $imageList) 1 -}}
+        <button class="carousel-btn carousel-btn-prev" aria-label="Previous slide">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+        </button>
+        <button class="carousel-btn carousel-btn-next" aria-label="Next slide">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+        </button>
+
+        <div class="carousel-indicators">
+            {{- range $index, $image := $imageList -}}
+            <button class="carousel-indicator {{ if eq $index 0 }}active{{ end }}" data-slide="{{ $index }}"
+                aria-label="Go to slide {{ add $index 1 }}"></button>
+            {{- end -}}
+        </div>
+        {{- end -}}
+    </div>
+</div>
+
+<script>
+    (function () {
+        const carousel = document.getElementById('{{ $id }}');
+        if (!carousel) return;
+
+        const slides = carousel.querySelectorAll('.carousel-slide');
+        const indicators = carousel.querySelectorAll('.carousel-indicator');
+        const prevBtn = carousel.querySelector('.carousel-btn-prev');
+        const nextBtn = carousel.querySelector('.carousel-btn-next');
+        let currentSlide = 0;
+        let autoplayInterval;
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.classList.toggle('active', i === index);
+            });
+            indicators.forEach((indicator, i) => {
+                indicator.classList.toggle('active', i === index);
+            });
+            currentSlide = index;
+        }
+
+        function nextSlide() {
+            const next = (currentSlide + 1) % slides.length;
+            showSlide(next);
+        }
+
+        function prevSlide() {
+            const prev = (currentSlide - 1 + slides.length) % slides.length;
+            showSlide(prev);
+        }
+
+        function startAutoplay() {
+            if (slides.length > 1) {
+                autoplayInterval = setInterval(nextSlide, 5000);
+            }
+        }
+
+        function stopAutoplay() {
+            clearInterval(autoplayInterval);
+        }
+
+        if (prevBtn && nextBtn) {
+            prevBtn.addEventListener('click', () => {
+                prevSlide();
+                stopAutoplay();
+                startAutoplay();
+            });
+
+            nextBtn.addEventListener('click', () => {
+                nextSlide();
+                stopAutoplay();
+                startAutoplay();
+            });
+        }
+
+        indicators.forEach((indicator, index) => {
+            indicator.addEventListener('click', () => {
+                showSlide(index);
+                stopAutoplay();
+                startAutoplay();
+            });
+        });
+
+        // Touch/swipe support
+        let touchStartX = 0;
+        let touchEndX = 0;
+
+        carousel.addEventListener('touchstart', (e) => {
+            touchStartX = e.changedTouches[0].screenX;
+        });
+
+        carousel.addEventListener('touchend', (e) => {
+            touchEndX = e.changedTouches[0].screenX;
+            handleSwipe();
+        });
+
+        function handleSwipe() {
+            if (touchEndX < touchStartX - 50) {
+                nextSlide();
+                stopAutoplay();
+                startAutoplay();
+            }
+            if (touchEndX > touchStartX + 50) {
+                prevSlide();
+                stopAutoplay();
+                startAutoplay();
+            }
+        }
+
+        // Pause on hover
+        carousel.addEventListener('mouseenter', stopAutoplay);
+        carousel.addEventListener('mouseleave', startAutoplay);
+
+        // Start autoplay
+        startAutoplay();
+    })();
+</script>

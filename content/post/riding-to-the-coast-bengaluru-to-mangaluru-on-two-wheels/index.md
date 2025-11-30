@@ -1,7 +1,8 @@
 +++
 author = "Abhishek AN"
 title = "Riding to the Coast: Bengaluru to Mangaluru on Two Wheels"
-date = "2025-11-30"
+date = "2025-12-01"
+publishDate = "2025-11-30"
 summary = "Discover what it's like to ride from Bengaluru to Mangaluru on a Royal Enfield Himalayan 411, with route details, ghat roads, coastal highlights, pillion experience, and lessons learned from a 1177 km motorcycle trip."
 tags = [
     "Travel",
@@ -52,11 +53,9 @@ Since we had no puncture kit, repair kit, or anything remotely useful with us, w
 
 Feeling a bit more confident, we continued towards the Shirady Ghat. The roads until Hassan were great and even the ghat stretch was good, but the highway closer to Mangaluru was partly under construction. Some sections felt more like off-roading than highway riding, and on those muddy, uneven patches, I kept thinking, “What if the tyre gets punctured now?”
 
-We reached Mangaluru around 2:30 PM. The last stretch felt never-ending and by the time we got there, we were exhausted. We headed straight into a Domino’s and attacked our lunch like we hadn’t seen food in days. Our stay was just 15 minutes away and the best part it was right in front of Chithrapura Beach. We checked in, took some much-needed rest, and spent the rest of the evening relaxing. Later we rode to the city centre for dinner, and after coming back, crashed immediately.
+We reached Mangaluru around 2:30 PM. The last stretch felt never-ending and by the time we got there, we were exhausted. We headed straight into a Domino's and attacked our lunch like we hadn't seen food in days. Our stay was just 15 minutes away and the best part it was right in front of Chithrapura Beach. We checked in, took some much-needed rest, and spent the rest of the evening relaxing. Later we rode to the city centre for dinner, and after coming back, crashed immediately.
 
-- ![](10.jpg)
-- ![](4.jpg)
-
+{{< carousel images="4.jpg,10.jpg,5.jpg" >}}
 
 ## Day 2. Mangaluru to Murudeshwara and back
 
@@ -70,15 +69,21 @@ Then we continued towards Udupi again and made a stop at Malpe Beach. It was bri
 
 By around 4:30 PM we were back at our stay. Another calm evening by the beach.
 
+{{< carousel images="8.jpg,2.jpg,7.jpg,1.jpg" >}}
+
 ## Day 3. A day for nothing but chilling
 
 We didn’t explore much today this was meant to be a slow day. We went to Nexus Mall, wandered around, and later headed out for dinner. As soon as we finished eating, it started pouring like crazy. We waited for nearly half an hour for it to stop, but it didn’t. Eventually we accepted our fate and rode 20 minutes in heavy rain back to our stay.
 
 For a moment I thought this rain was going to ruin our return journey, but as with most coastal weather it doesn’t take long for things to change.
 
+{{< carousel images="3.jpg,9.jpg" >}}
+
 ## Day 4. Mangaluru to Bengaluru
 
 Mangaluru had been surreal. Neither of us wanted to say goodbye. After some last-minute packing and tying down the luggage again carefully this time we left around 6:30 AM. We followed the same route back, stopping three times for breakfast, tea, and lunch.
+
+{{< figure src="6.jpg" alt="Navigation" width="300" height="200" caption="My Route" >}}
 
 The return journey was more relaxed, except for one long upward climb on the ghat where our luggage kept threatening to fall off again. But apart from that, the ride was peaceful.
 
