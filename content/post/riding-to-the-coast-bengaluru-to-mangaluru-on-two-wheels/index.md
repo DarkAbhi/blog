@@ -35,6 +35,11 @@ We didn’t carry a single maintenance item for my Himalayan 411. No puncture ki
 
 But despite the small scares, the ride was everything we hoped it would be. Nothing extravagant, nothing overly planned. Just two people, a bike, the open highway, and the kind of moments that remind you why traveling slowly is underrated.
 
+This was the route we took:
+Bengaluru → Hassan → Sakleshpur → Mangaluru and back via the same route
+
+![Google maps route from Bengaluru to Mangaluru](route.png "Google Maps route")
+
 ## Day 1. Bengaluru to Mangaluru
 
 I recently went on a short 4-day bike ride with my partner from Bengaluru to Mangaluru. We packed light for the most part or at least I did. We carried one 80L rucksack and a Viaterra tank bag and set off at around 6:30 AM. Once we crossed Nelamangala, it was pretty much straight on NH75.shared songs
@@ -48,6 +53,10 @@ Since we had no puncture kit, repair kit, or anything remotely useful with us, w
 Feeling a bit more confident, we continued towards the Shirady Ghat. The roads until Hassan were great and even the ghat stretch was good, but the highway closer to Mangaluru was partly under construction. Some sections felt more like off-roading than highway riding, and on those muddy, uneven patches, I kept thinking, “What if the tyre gets punctured now?”
 
 We reached Mangaluru around 2:30 PM. The last stretch felt never-ending and by the time we got there, we were exhausted. We headed straight into a Domino’s and attacked our lunch like we hadn’t seen food in days. Our stay was just 15 minutes away and the best part it was right in front of Chithrapura Beach. We checked in, took some much-needed rest, and spent the rest of the evening relaxing. Later we rode to the city centre for dinner, and after coming back, crashed immediately.
+
+- ![](10.jpg)
+- ![](4.jpg)
+
 
 ## Day 2. Mangaluru to Murudeshwara and back
 
