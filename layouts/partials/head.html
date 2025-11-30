@@ -1,6 +1,8 @@
 <head>
+    {{- if hugo.IsProduction -}}
     <script defer src="https://umami-omega-puce.vercel.app/script.js"
         data-website-id="057e28bb-63f6-428b-9c15-5c27e42ff3c5"></script>
+    {{- end -}}
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
