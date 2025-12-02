@@ -43,7 +43,7 @@ Bengaluru → Hassan → Sakleshpur → Mangaluru and back via the same route
 
 ## Day 1. Bengaluru to Mangaluru
 
-I recently went on a short 4-day bike ride with my partner from Bengaluru to Mangaluru. We packed light for the most part or at least I did. We carried one 80L rucksack and a Viaterra tank bag and set off at around 6:30 AM. Once we crossed Nelamangala, it was pretty much straight on NH75.shared songs
+We packed light for the most part or at least I did. We carried one 80L rucksack and a Viaterra tank bag and set off at around 6:30 AM. Once we crossed Nelamangala, it was pretty much straight on NH75.shared songs
 
 We stopped for breakfast at Paakashala around 8 AM and later made another small stop at A2B before Hassan just to stretch our legs. It was smooth riding until a few kilometres after Sakleshpur when we noticed our rucksack had slipped and was almost falling off. We pulled over to adjust it and in the process, while getting off the bike, my leg got caught in the luggage and I ended up dropping the bike. A bit of petrol had leaked out and for a moment I was worried about damage to the engine or tank.
 
@@ -83,7 +83,7 @@ For a moment I thought this rain was going to ruin our return journey, but as wi
 
 Mangaluru had been surreal. Neither of us wanted to say goodbye. After some last-minute packing and tying down the luggage again carefully this time we left around 6:30 AM. We followed the same route back, stopping three times for breakfast, tea, and lunch.
 
-{{< figure src="6.jpg" alt="Navigation" width="300" height="200" caption="My Route" >}}
+{{< figure src="6.jpg" alt="Hill view" width="300" height="200" >}}
 
 The return journey was more relaxed, except for one long upward climb on the ghat where our luggage kept threatening to fall off again. But apart from that, the ride was peaceful.
 
