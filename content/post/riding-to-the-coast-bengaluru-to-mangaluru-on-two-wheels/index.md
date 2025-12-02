@@ -4,6 +4,7 @@ title = "Riding to the Coast: Bengaluru to Mangaluru on Two Wheels"
 date = "2025-12-01"
 publishDate = "2025-11-30"
 summary = "Discover what it's like to ride from Bengaluru to Mangaluru on a Royal Enfield Himalayan 411, with route details, ghat roads, coastal highlights, pillion experience, and lessons learned from a 1177 km motorcycle trip."
+description = "A detailed Bengaluru to Mangaluru motorcycle ride on a Royal Enfield Himalayan 411 — route, ghat roads, coastal views, pillion experience, and key lessons."
 tags = [
     "Travel",
     "Bike Ride",
@@ -13,11 +14,12 @@ tags = [
 categories = [
     "Travel",
 ]
+images = ["blr-2-mlr-ride.jpg"]
 keywords = [
     "Bengaluru to Mangaluru bike ride",
     "Bangalore to Mangalore ride",
     "Western Ghats motorcycle trip",
-    "Himalayan 411 long ride",
+    "Himalayan 411",
     "Royal Enfield travel stories",
     "Karnataka bike trip",
     "Coastal ride India",
@@ -25,6 +27,7 @@ keywords = [
     "Pillion travel experience",
     "NH75 Shirady Ghat ride"
 ]
+lastmod = "2025-12-02T10:00:00+05:30"
 +++
 
 I recently completed a four-day ride from Bengaluru to Mangaluru with my partner, and it turned out to be one of the most surreal experiences I’ve ever had on a motorcycle. This was my first long ride with a pillion, and I genuinely couldn’t have asked for a better companion. We covered a total of 1177 kilometres not fast, not the cheapest trip, nothing too fancy but it felt real. It felt alive. The kind of ride where you’re constantly surrounded by the lush green of the ghats, the smell of damp earth, the blue stretch of the sea, and long empty roads that make you feel like time has slowed down just a little.
