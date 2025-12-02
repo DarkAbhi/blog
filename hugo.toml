@@ -1,4 +1,4 @@
-baseURL = 'https://blog.abhishekan.dev'
+baseURL = 'https://blog.abhishekan.dev/'
 languageCode = 'en-us'
 title = 'Abhishek AN'
 theme = 'paper'
@@ -13,4 +13,35 @@ theme = 'paper'
     name = 'Abhishek AN'
     bio = "Tech musings, travel stories, and life's adventures documented along the way."
 
+    author = "Abhishek AN"
+
     avatar = 'https://avatars.githubusercontent.com/u/22658573?v=4'
+
+    description = "Abhishek AN's portfolio – exploring technology, startups, and community-driven initiatives."
+
+    keywords = [
+        "Abhishek AN",
+        "Android engineer",
+        "Software developer",
+        "Full Stack Developer",
+        "BigBasket",
+        "Adevinta",
+        "Appiness Interactive Pvt Ltd",
+        "Xebia",
+        "Terrum",
+        "AgriApp",
+        "HearthMath",
+        "Appiness Interactive",
+        "Tech communities",
+        "Zero waste events"
+    ]
+
+    images = ["/og-image.png"]
+
+    # icons (your head.html already uses these)
+    favicon = "favicon.ico"
+    appleTouchIcon = "apple-touch-icon.png"
+
+    # Optional: extra Twitter info (we'll use this in head.html below)
+    twitterSite = "@im_abhishekan"
+    twitterCreator = "@im_abhishekan"
