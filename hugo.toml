@@ -36,7 +36,7 @@ theme = 'paper'
         "Zero waste events"
     ]
 
-    images = ["/og-image.png"]
+    images = ["/images/og-image.png"]
 
     # icons (your head.html already uses these)
     favicon = "favicon.ico"
